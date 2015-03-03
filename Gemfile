@@ -10,7 +10,6 @@ gem 'binding_of_caller'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'mysql2'
-gem 'sqlite3'
 gem 'ransack'
 # Use Bootstrap for styling
 gem 'bootstrap-sass'
@@ -55,5 +54,6 @@ end
 
 group :test do
   gem 'rspec'
+
 end
 
